@@ -10,6 +10,7 @@
 
 <com.yhongm.chart_core.BarChartView     android:layout_centerInParent="true"     custom:gradientStartColor="#ffa666"     custom:gradientEndColor="#e57a2e"     custom:lineColor="#333333"     custom:chartColor="#666666"     custom:textColor="#666666"     custom:maxValue="2500"     custom:unit="单位"     custom:horizentalLineNum="2"
     custom:barWidth="16"     android:id="@+id/bar_chart"     android:layout_width="300dp"     android:layout_height="200dp"></com.yhongm.chart_core.BarChartView>
+	
 	## gradientStartColor 为渐变色起始值
 	## gradientEndColor 为渐变色结束值
 	## horizentalLineNum 刻度线
@@ -17,6 +18,7 @@
 	## maxValue 最大值
 	## barWidth 柱形图宽度
 	## lineColor，chartColor，textColor 颜色值
+	</br>
 	</br>
 2.curveChartView:
 
