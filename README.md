@@ -1,8 +1,8 @@
 # yhongm_chart,图表库，含有折线图,条形图，柱形图
 #效果
-/preview/Screenshot_1491750474.png
-/preview/Screenshot_1491750643.png
-/preview/Screenshot_1491750379.png
+<img src="/preview/Screenshot_1491750474.png">
+<img src="/preview/Screenshot_1491750643.png">
+<img src="/preview/Screenshot_1491750379.png">
 
 #使用方法
 1.barChartView:
