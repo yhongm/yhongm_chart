@@ -1,12 +1,12 @@
  ## yhongm_chart,简单的图表库，含有折线图,条形图，柱形图
  
- ###效果
+ ##效果
  
 <img src="/preview/Screenshot_1491750474.png">
 <img src="/preview/Screenshot_1491750643.png">
 <img src="/preview/Screenshot_1491750379.png">
 
- ###使用方法
+ ##使用方法
  
 </br>
 1.barChartView:
