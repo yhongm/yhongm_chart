@@ -8,7 +8,6 @@
 
  ## 使用方法
  
-</br>
  ## barChartView
 
 <com.yhongm.chart_core.BarChartView     android:layout_centerInParent="true"     custom:gradientStartColor="#ffa666"     custom:gradientEndColor="#e57a2e"     custom:lineColor="#333333"     custom:chartColor="#666666"     custom:textColor="#666666"     custom:maxValue="2500"     custom:unit="单位"     custom:horizentalLineNum="2"
@@ -22,8 +21,6 @@
  ##### barWidth: 柱形图宽度
  ##### lineColor，chartColor，textColor: 图表颜色值
 	
-</br>
-</br>
  ## curveChartView
 
 <com.yhongm.chart_core.CurveChartView     custom:curveOrBroken="false"     custom:max="2500"     custom:scaleColor="#666666"     custom:curveLineColor="#ff5500"     custom:smartCircleColor="#ff5500"     custom:smartFillColor="#ffffff"     android:layout_centerInParent="true"     android:id="@+id/curve_chart"     android:layout_width="300dp"     android:layout_height="200dp"> </com.yhongm.chart_core.CurveChartView>
