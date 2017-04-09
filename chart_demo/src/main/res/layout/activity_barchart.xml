@@ -10,9 +10,10 @@
         custom:lineColor="#333333"
         custom:chartColor="#666666"
         custom:textColor="#666666"
-        custom:maxValue="2000"
+        custom:maxValue="2500"
         custom:unit="单位"
         custom:horizentalLineNum="2"
+        custom:barWidth="16"
         android:id="@+id/bar_chart"
         android:layout_width="300dp"
         android:layout_height="200dp"></com.yhongm.chart_core.BarChartView>

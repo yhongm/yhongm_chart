@@ -33,8 +33,7 @@ public class CurveChartActivity extends Activity {
             vValueAndHunit.setUnit(i+"");
             list.add(vValueAndHunit);
         }
-        curveChartView.setMaxNum(2000);
+        curveChartView.setMaxNum(2500);
         curveChartView.setDatas(list);
-//        curveChartView.setMaxNum();
     }
 }

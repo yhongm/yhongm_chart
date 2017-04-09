@@ -69,7 +69,7 @@ public class CurveChartView extends View {
     private void init(AttributeSet attrs) {
         TypedArray typedArray = mContext.obtainStyledAttributes(attrs, R.styleable.CurveChartView);
 
-        CurveOrBroken = typedArray.getBoolean(R.styleable.CurveChartView_CurveOrBroken, true);
+        CurveOrBroken = typedArray.getBoolean(R.styleable.CurveChartView_curveOrBroken, true);
 
         max = typedArray.getInteger(R.styleable.CurveChartView_max, 100);
         maxNum = max;

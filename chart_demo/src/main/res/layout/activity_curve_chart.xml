@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.yhongm.chart_core.CurveChartView
-        custom:CurveOrBroken="false"
-        custom:max="2000"
+        custom:curveOrBroken="false"
+        custom:max="2500"
         custom:scaleColor="#666666"
         custom:curveLineColor="#ff5500"
         custom:smartCircleColor="#ff5500"
@@ -14,6 +14,5 @@
         android:id="@+id/curve_chart"
         android:layout_width="300dp"
         android:layout_height="200dp">
-
     </com.yhongm.chart_core.CurveChartView>
 </RelativeLayout>

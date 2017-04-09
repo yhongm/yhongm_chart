@@ -2,7 +2,7 @@
 <resources>
     <declare-styleable name="CurveChartView">
         <!--折线或者曲线 true为曲线，false为折线-->
-        <attr name="CurveOrBroken" format="boolean"></attr>
+        <attr name="curveOrBroken" format="boolean"></attr>
         <attr name="max" format="integer"></attr>
         <attr name="smartCircleColor" format="color"></attr>
         <attr name="curveLineColor" format="color"></attr>

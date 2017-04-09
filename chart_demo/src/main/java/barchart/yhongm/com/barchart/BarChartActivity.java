@@ -23,7 +23,7 @@ public class BarChartActivity extends Activity {
         setContentView(R.layout.activity_barchart);
         barChartView= (BarChartView) findViewById(R.id.bar_chart);
         barChartView.setBarWidth(16);
-        barChartView.setMax(2000);
+        barChartView.setMax(2500);
         barChartView.setUnit("单位");
         ArrayList<BarChartView.VvalueAndHunit> list=new ArrayList<>();
         Random r=new Random();
