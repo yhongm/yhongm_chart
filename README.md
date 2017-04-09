@@ -1,4 +1,4 @@
-#### yhongm_chart,图表库，含有折线图,条形图，柱形图
+ ## yhongm_chart,图表库，含有折线图,条形图，柱形图
 ###效果
 <img src="/preview/Screenshot_1491750474.png">
 <img src="/preview/Screenshot_1491750643.png">
