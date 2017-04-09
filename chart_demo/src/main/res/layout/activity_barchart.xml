@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.yhongm.chart_core.BarChartView
+        android:layout_centerInParent="true"
+        custom:gradientStartColor="#ffa666"
+        custom:gradientEndColor="#e57a2e"
+        custom:lineColor="#333333"
+        custom:chartColor="#666666"
+        custom:textColor="#666666"
+        custom:maxValue="2000"
+        custom:unit="单位"
+        custom:horizentalLineNum="2"
+        android:id="@+id/bar_chart"
+        android:layout_width="300dp"
+        android:layout_height="200dp"></com.yhongm.chart_core.BarChartView>
+</RelativeLayout>
