@@ -11,7 +11,7 @@
  
  ### 1.barChartView:  
  
-```java
+```xml
     <com.yhongm.chart_core.BarChartView   
     android:layout_centerInParent="true"   
     custom:gradientStartColor="#ffa666"   
@@ -38,7 +38,7 @@
  ##### lineColor，chartColor，textColor: 图表颜色值
 	
  ### 2.curveChartView:
-```java
+```xml
      <com.yhongm.chart_core.CurveChartView   
      custom:curveOrBroken="false"   
      custom:max="2500"   
