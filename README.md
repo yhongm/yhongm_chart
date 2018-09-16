@@ -11,7 +11,7 @@
  
  ### 1.barChartView:  
  
-<code>
+```java
     <com.yhongm.chart_core.BarChartView   
     android:layout_centerInParent="true"   
     custom:gradientStartColor="#ffa666"   
@@ -27,7 +27,7 @@
     android:layout_width="300dp"    
     android:layout_height="200dp">  
     </com.yhongm.chart_core.BarChartView>
-</code>    
+```  
 	
  ##### gradientStartColor: 为渐变色起始值
  ##### gradientEndColor: 为渐变色结束值
@@ -38,7 +38,7 @@
  ##### lineColor，chartColor，textColor: 图表颜色值
 	
  ### 2.curveChartView:
-<code>
+```java
      <com.yhongm.chart_core.CurveChartView   
      custom:curveOrBroken="false"   
      custom:max="2500"   
@@ -52,7 +52,7 @@
      android:layout_height="200dp">  
       </com.yhongm.chart_core.CurveChartView>
  
-</code>
+```
 
   ##### curveOrBroken: true为曲线图,false为折线图
   ##### max:为曲线图或折线图最大值
