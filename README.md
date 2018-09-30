@@ -7,8 +7,29 @@
 <img src="/preview/Screenshot_1491750379.png">
 <img src="/preview/Screenshot_1537070842.png">
 
- ## 使用方法
- 
+***
+ ## 使用方法:
+
+ ## Step 1. Add the JitPack repository to your build file
+ ## Add it in your root build.gradle at the end of repositories:
+ ```
+ 	allprojects {
+ 		repositories {
+ 			...
+ 			maven { url 'https://jitpack.io' }
+ 		}
+ 	}
+ ```
+
+
+ ## Step 2. Add the dependency
+
+ ```
+  	        dependencies {
+         	        implementation 'com.github.yhongm:yhongm_chart:master'
+         	}
+ ```
+ ## Step 3.布局文件添加以下属性
  ### 1.barChartView:  
  
 ```xml
@@ -57,6 +78,17 @@
   ##### curveOrBroken: true为曲线图,false为折线图
   ##### max:为曲线图或折线图最大值
   ##### scaleColor，curveLineColor，smartCircleColor，smartFillColor: 图表颜色值
+  ***
   ### 3.PolyLineView
+  ```xml
+      <com.yhongm.chart_core.PolyLineView
+              android:id="@+id/polyline_view"
+              android:layout_centerHorizontal="true"
+              android:layout_alignParentBottom="true"
+              android:layout_width="300dp"
+              android:layout_height="200dp" />
+  ```
+
+
   
 
